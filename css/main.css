@@ -1,0 +1,206 @@
+
+
+@import url('https://rsms.me/inter/inter.css');
+
+html { 
+	font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1C1C1C;
+    color: white;
+}
+
+.container {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.navbar {
+    overflow: hidden;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+  
+.navbar a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar-title {
+    padding: 14px 16px;
+    font-size: 2vw;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+.content {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-left {
+    float: left;
+    width: 50%;
+}
+  
+.column-right {
+  float: right;
+  width: 50%;
+}
+
+.column-full {
+  float: left;
+  width: 100%;
+}
+/* Clear floats after the columns */
+.row:after {
+    display: table;
+    clear: both;
+}
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+.centerize {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.separate {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.btn_main {
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  color: #000000;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn_outline {
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius: 12px;
+  color: #FFFFFF;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.peoples {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.people-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 5%;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #1C1C1C;
+}
+
+td {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+}
+
+.login-body {
+  color: white;
+  background: url(../image/background.jpg) no-repeat center center fixed; 
+  background-color: #222933;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.login-title {
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.textbox-login {
+  background-color: rgba(100%, 100%, 100%, 20%);
+  backdrop-filter: blur(10px);
+  height: 45px;
+  width: 250px;
+  border: 0;
+  border-radius: 25px;
+  outline: none;
+  font-size: 14px;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 60px;
+}
+
+.textbox-login:hover {
+  transition: all 1s ease-in;
+  background-color: rgba(100%, 100%, 100%, 10%);
+  backdrop-filter: blur(5px);
+}
+
+.textbox-login:focus {
+  background-color: rgba(100%, 100%, 100%, 10%);
+  backdrop-filter: blur(5px);
+  border: 0;
+}
+
+.spacer {
+  height: 10%;
+}
+
+.login-form {
+  padding-top: 2.5%;
+  padding-bottom: 4%; 
+}
+
+.login-area {
+  padding-top: 2.5%;
+  padding-bottom: 4%; 
+}
+
+.footer-text {
+  padding-top: 2.5%;
+}
